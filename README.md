@@ -3,7 +3,29 @@ Hot Reload plugin for Rollup.js
 
 ## How to use
 
-## Example
+> rollup.config.js
+
+```js
+
+import hotreload from "rollup-plugin-hotreload";
+import socketio from "socket.io";
+import your_server from "your_server_path";
+
+export default {
+  //...
+  plugins: [
+    hotreload({
+      port: 3000,
+      server: your_server,
+      socketio: your_socketio,
+      // reloadMessage: "",    (optional)
+      // disconnectMessage: "" (optional)
+    })
+  ]
+}
+
+```
+
 
 ## Install
 ```
