@@ -2,7 +2,7 @@
   "name": "rollup-plugin-hotreload",
   "version": "1.0.0",
   "description": "Hot Reload plugin for Rollup.js",
-  "main": "src/index.js",
+  "main": "build/index.min.js",
   "repository": "git@github.com:tingwei628/rollup-plugin-hotreload.git",
   "author": "tingwei628 <sbvq6p199xe@gmail.com>",
   "license": "MIT",
