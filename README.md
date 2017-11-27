@@ -8,7 +8,7 @@ Hot Reload plugin for Rollup.js
 ```js
 
 import hotreload from "rollup-plugin-hotreload";
-import socketio from "socket.io";
+import your_socketio from "socket.io";
 import your_server from "your_server_path";
 
 export default {
