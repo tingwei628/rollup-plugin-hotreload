@@ -29,10 +29,10 @@ export default {
 
 ## Install
 ```
-$yarn install
+$yarn install rollup-plugin-hotreload
 ```
 
-## Test
+## Test (Todo)
 ```
 $yarn test
 ```
