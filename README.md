@@ -23,5 +23,5 @@ $yarn build
 ## Contributing
 Feel free to fork and PR
 
-## Liscense
+## License
 MIT
