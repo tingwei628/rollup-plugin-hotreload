@@ -1,3 +1,3 @@
-import module "../lib/hotreload";
+import hotreloadmodule "../lib/hotreload";
 
 export default hotreloadmodule;
