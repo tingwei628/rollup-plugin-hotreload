@@ -23,7 +23,7 @@ const config = {
     }),
     replace({
       exclude: 'node_modules/**',
-      ENV: JSON.stringify(process.env.NODE_ENV),
+      ENV: JSON.stringify(process.env.NODE_ENV || "development"),
     })
   ]
 };
