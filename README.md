@@ -27,7 +27,7 @@ export default {
 ```
 
 
-## Install
+## Installation
 ```
 $yarn install rollup-plugin-hotreload
 ```
