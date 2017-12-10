@@ -8,5 +8,6 @@
 ## Documents
  - Examples
  - Feature
+ - How to use in detail
 
 ## ScreenShot
