@@ -44,7 +44,8 @@ $yarn build
 
 ## Contributing
 Feel free to fork and PR
-[Issue](https://github.com/tingwei628/rollup-plugin-hotreload/issues)
+
+[Issues](https://github.com/tingwei628/rollup-plugin-hotreload/issues)
 
 ## License
 MIT
