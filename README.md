@@ -2,12 +2,12 @@
 Hot Reload plugin for Rollup.js
 
 ## Feature
-```
+
 - Support EventSource
 - Support multiple files hotreload
 - Support auto injected into HTML
 - Less dependencies
-```
+
 
 ## How to use
 
