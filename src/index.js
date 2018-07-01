@@ -1,3 +1,6 @@
-import hotreloadmodule from "../lib/hotreload";
+import { rph, rphMultibundles } from "../lib/rollup-plugin-hotreload";
 
-export default hotreloadmodule;
+export {
+  rph,
+  rphMultibundles
+};
