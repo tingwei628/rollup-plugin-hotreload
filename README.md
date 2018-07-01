@@ -15,10 +15,10 @@ Hot Reload plugin for Rollup.js
 
 ```js
 
-import rph from "rollup-plugin-hotreload";
+import { rph, rphMultibundles } from "rollup-plugin-hotreload";
 import your_server from "your_server_path";
 
-export default {
+export default rphMultibundles({
   //...
   plugins: [
     rph({
@@ -34,8 +34,7 @@ export default {
       // disconnectMessage: "" (optional)
     })
   ]
-}
-
+}, __dirname);
 ```
 
 
