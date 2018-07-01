@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-hotreload",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Hot Reload plugin for Rollup.js",
   "main": "build/index.min.js",
   "repository": "git@github.com:tingwei628/rollup-plugin-hotreload.git",
