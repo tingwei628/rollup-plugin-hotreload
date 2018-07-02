@@ -1,30 +1,29 @@
-import hotreload from "../lib/hotreload";
-import socketio from "socketio";
+// import hotreload from "../lib/hotreload";
 
-const serverForTest = http.createServer((req, res) => res.end());
-const messageForTest = {
-  reload: "reloadTest",
-  disconnect: "disconnectTest"
-}
-const portTest = 5000;
+// const serverForTest = http.createServer((req, res) => res.end());
+// const messageForTest = {
+//   reload: "reloadTest",
+//   disconnect: "disconnectTest"
+// }
+// const portTest = 5000;
 
-const optionsForTest = {
-  server: serverForTest,
-  socketio: socketioTest,
-  port: portTest,
-  message: messageForTest
-};
+// const optionsForTest = {
+//   server: serverForTest,
+//   socketio: socketioTest,
+//   port: portTest,
+//   message: messageForTest
+// };
 
 
-describe("test server", () => {
-  test("test options server", () => {
+// describe("test server", () => {
+//   test("test options server", () => {
 
-  })
-});
+//   })
+// });
 
-test("test whether server get started", () => {
+// test("test whether server get started", () => {
 
-});
+// });
 
 // 
 
