@@ -60,7 +60,7 @@ $yarn test
 $yarn build
 ```
 
-## (ChangeLog)[https://github.com/tingwei628/rollup-plugin-hotreload/blob/master/ChangeLog.md]
+## [ChangeLog](https://github.com/tingwei628/rollup-plugin-hotreload/blob/master/ChangeLog.md)
 
 ## Contributing
 Feel free to fork and PR
