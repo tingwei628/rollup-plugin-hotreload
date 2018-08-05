@@ -2,7 +2,7 @@ import babel from 'rollup-plugin-babel';
 import resolve from 'rollup-plugin-node-resolve';
 import commonjs from 'rollup-plugin-commonjs';
 import replace from 'rollup-plugin-replace';
-import { uglify } from 'rollup-plugin-uglify';
+// import { uglify } from 'rollup-plugin-uglify';
 import { join } from "path";
 const config = {
   output: {
@@ -24,8 +24,8 @@ const config = {
     replace({
       exclude: 'node_modules/**',
       ENV: JSON.stringify(process.env.NODE_ENV || "development"),
-    }),
-    uglify()
+    })
+    // uglify()
   ]
 };
 function bundle(config, dirname, outputpath, sourcefilepath) {
