@@ -1,7 +1,7 @@
 ## 2.2.2
 - Fix bug: 
-  1.write after end
-  2.fix wrong hotreload file path
+  1. write after end  
+  2. fix wrong hotreload file path
 
 
 ## 2.1.2
