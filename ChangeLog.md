@@ -1,4 +1,4 @@
-## 2.1.6
+## 2.1.8
 - Fix bug: 
   1.write after end
   2.fix wrong hotreload file path
