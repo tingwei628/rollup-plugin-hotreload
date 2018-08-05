@@ -3,35 +3,35 @@ Hot Reload plugin for Rollup.js
 
 ## Feature
 
-- Support EventSource
-- Support multiple files hotreload
-- Support auto injected into HTML
-- Few dependencies
-
+- Multiple files hotreload supported
+- Auto injected into HTML supported
+- EventSource (depended on browsers)
 
 ## How to use
 
 > rollup.config.js
 
+> NOTE: the rollup-plugin-hotreload server port is 9999
+> DO NOT USE localhost server port as the same as 9999
+
 ```js
 
 import { rph, rphMultibundles } from "rollup-plugin-hotreload";
-import your_server from "your_server_path";
+import path from "path";
+import "your_server_path"; // import your server path;
 
 export default rphMultibundles({
   //...
   plugins: [
     rph({
-      your_server,
-      templateHtmlPath: "src/index.html", // template html
+      templateHtmlPath: path.join(__dirname, "src/index.html"), // template html
       isStopRPH: false, // stop hotreload or not
-      rootDir: "build", // build root path
+      rootDir: path.join(__dirname, "build"), // build root path
       buildPaths: [
-        // first one is relative path to rootDir
+        // first one is relative path to rootDir...
         ["js/index.min.js", "src/index.js"]
+        // as many as you want ...
       ]
-      // reloadMessage: "",    (optional)
-      // disconnectMessage: "" (optional)
     })
   ]
 }, __dirname);

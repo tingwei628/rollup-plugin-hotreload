@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-hotreload",
-  "version": "2.1.5",
+  "version": "2.1.6",
   "description": "Hot Reload plugin for Rollup.js",
   "main": "build/index.min.js",
   "repository": "git@github.com:tingwei628/rollup-plugin-hotreload.git",
@@ -23,7 +23,8 @@
     "rollup-plugin-babel": "^3.0.2",
     "rollup-plugin-commonjs": "^8.2.6",
     "rollup-plugin-node-resolve": "^3.0.0",
-    "rollup-plugin-replace": "^2.0.0"
+    "rollup-plugin-replace": "^2.0.0",
+    "rollup-plugin-uglify": "^4.0.0"
   },
   "jest": {
     "moduleFileExtensions": [
