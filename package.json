@@ -10,9 +10,11 @@
     "test": "rm -rf coverage/ && node_modules/jest/bin/jest.js --coverage",
     "clean-build": "rm -rf build/",
     "coverage": "cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
-    "build": "yarn run clean-build && NODE_ENV=production node_modules/.bin/rollup -c rollup.config.js"
+    "build": "yarn run clean-build && cross-env NODE_ENV=production node_modules/.bin/rollup -c rollup.config.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "cross-env": "^5.2.0"
+  },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-plugin-external-helpers": "^6.22.0",
