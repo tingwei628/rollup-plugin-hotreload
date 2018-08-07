@@ -12,6 +12,7 @@ Hot Reload plugin for Rollup.js
 > rollup.config.js
 
 > NOTE: the rollup-plugin-hotreload server port is 9999
+
 > DO NOT USE localhost server port as the same as 9999
 
 ```js
@@ -58,6 +59,8 @@ $yarn test
 ```
 $yarn build
 ```
+
+## [ChangeLog](https://github.com/tingwei628/rollup-plugin-hotreload/blob/master/ChangeLog.md)
 
 ## Contributing
 Feel free to fork and PR
