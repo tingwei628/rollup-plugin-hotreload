@@ -1,3 +1,7 @@
+## 2.2.3
+- Fix bug:
+  1. NODE_ENV window support
+
 ## 2.2.2
 - Fix bug: 
   1. write after end  
