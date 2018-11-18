@@ -13,7 +13,27 @@ Hot Reload plugin for Rollup.js
 
 > NOTE: the rollup-plugin-hotreload server port is 9999
 
-> DO NOT USE localhost server port as the same as 9999
+> :DO NOT USE localhost server port as the same as 9999
+
+> your_server.js
+``js`
+// koa@2.6.2
+import Koa from 'koa';
+import koaSend from 'koa-send';
+const server = new Koa();
+
+server.use(async ctx => {
+  await koaSend(ctx, ctx.path, {
+    root: __dirname + '/build'
+  });
+});
+
+server.listen(3005);
+
+export default server;
+
+```
+
 
 ```js
 
