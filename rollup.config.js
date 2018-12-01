@@ -4,15 +4,32 @@ import commonjs from 'rollup-plugin-commonjs';
 import replace from 'rollup-plugin-replace';
 import { uglify } from 'rollup-plugin-uglify';
 import { join } from "path";
+
+
 const config = {
   output: {
     file: "",
     name: "rollup-plugin-hotreload",
     format: 'umd',
-    sourcemap: true
+    sourcemap: true,
+    globals: {
+      crypto: 'crypto',
+      fs: 'fs',
+      path: 'path',
+      stream: 'stream',
+      http: 'http'
+    },
   },
+  external: [
+    'crypto',
+    'fs',
+    'path',
+    'stream',
+    'http',
+  ],
   plugins: [
     resolve({
+      module: true,
       jsnext: true,
       main: true,
       browser: true

@@ -1,3 +1,5 @@
+## 2.2.4
+
 ## 2.2.3
 - Fix bug:
   1. NODE_ENV window support

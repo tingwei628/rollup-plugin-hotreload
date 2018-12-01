@@ -60,24 +60,19 @@ export default server;
 
 
 ## Installation
-```
-$yarn add rollup-plugin-hotreload
-```
-
-or 
 
 ```
-$npm install rollup-plugin-hotreload
+$npm install rollup-plugin-hotreload --save-dev
 ```
 
-## Test (Todo)
+## Test
 ```
-$yarn test
+$npm run test
 ```
 
 ## Build
 ```
-$yarn build
+$npm run build
 ```
 
 ## [ChangeLog](https://github.com/tingwei628/rollup-plugin-hotreload/blob/master/ChangeLog.md)

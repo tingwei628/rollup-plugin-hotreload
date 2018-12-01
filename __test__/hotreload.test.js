@@ -1,4 +1,22 @@
-// import hotreload from "../lib/hotreload";
+//import hotreload from "../lib/hotreload";
+
+function errorFn() {
+  throw new SyntaxError("wow");
+}
+test('this is should be an error', () => {
+  expect(errorFn).toThrow("wow");
+});
+
+
+// test validate in insertjs() 
+
+
+
+// test validate scripts in reloadjs()
+
+
+// test browser 
+
 
 // const serverForTest = http.createServer((req, res) => res.end());
 // const messageForTest = {
@@ -34,13 +52,3 @@
 //       y: expect.any(Number),
 //     }),
 //   );
-
-
-
-
-
-
-
-//test options were passed
-//test whether server got started
-//test whether socket.io connected with socket.io-client 
