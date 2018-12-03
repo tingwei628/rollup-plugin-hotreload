@@ -1,5 +1,7 @@
 ## 2.2.4
-
+- Enhancement:
+  1. reduce too many unnecessay event source request
+  
 ## 2.2.3
 - Fix bug:
   1. NODE_ENV window support
