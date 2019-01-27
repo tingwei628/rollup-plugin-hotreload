@@ -1,11 +1,11 @@
-//import hotreload from "../lib/hotreload";
+// function errorFn() {
+//   throw new SyntaxError("wow");
+// }
+// test('this is should be an error', () => {
+//   expect(errorFn).toThrow("wow");
+// });
 
-function errorFn() {
-  throw new SyntaxError("wow");
-}
-test('this is should be an error', () => {
-  expect(errorFn).toThrow("wow");
-});
+
 
 
 // test validate in insertjs() 

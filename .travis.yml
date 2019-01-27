@@ -1,7 +1,14 @@
 language: node_js
 node_js:
-  - "7"
-  - "6"
+  - "8"
+  - "9"
+  - "10"
+# whitelist
+branches:
+  only:
+    - master
+install:
+  - npm install
 script:
   - npm run test
 after_success:
