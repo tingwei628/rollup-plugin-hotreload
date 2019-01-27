@@ -16,6 +16,9 @@
         [
           "env"
         ]
+      ],
+      "plugins": [
+        "babel-plugin-transform-runtime"
       ]
     }
   }
