@@ -1,15 +1,22 @@
 language: node_js
 node_js:
-  - "8"
   - "9"
-  - "10"
 # whitelist
 branches:
   only:
     - master
 install:
   - npm install
-script:
-  - npm run test
+stages:
+  - test
+  - build
+jobs:
+  include:
+    - stage: test
+      script: 
+        - npm run test
+    - stage: build
+      script: 
+        - npm run build
 after_success:
   - npm run coverage
