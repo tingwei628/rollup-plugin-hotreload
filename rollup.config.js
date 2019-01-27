@@ -36,7 +36,7 @@ const config = {
     }),
     commonjs(),
     babel({
-      exclude: 'node_modules/**',
+      exclude: 'node_modules/**'
     }),
     replace({
       exclude: 'node_modules/**',
