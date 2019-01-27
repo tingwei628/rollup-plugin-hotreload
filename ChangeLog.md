@@ -1,3 +1,8 @@
+## 2.2.5
+- Enhancement:
+  1. Refactoring rollup-plugin-hotreload.js and add helpers
+  2. add build CI and some jest tests
+
 ## 2.2.4
 - Enhancement:
   1. reduce too many unnecessay event source request

@@ -1,5 +1,7 @@
 # rollup-plugin-hotreload
-Hot Reload plugin for Rollup.js
+>Hot Reload plugin for Rollup.js
+
+![](https://travis-ci.org/tingwei628/rollup-plugin-hotreload.svg?branch=master)
 
 ## Feature
 
@@ -25,9 +27,10 @@ export default rphMultibundles({
   //...
   plugins: [
     rph({
-      templateHtmlPath: path.join(__dirname, "src/index.html"), // template html
+      templateHtmlPath: "src/index.html", // template html path relative to rootDir
       isStopRPH: false, // stop hotreload or not
-      rootDir: path.join(__dirname, "build"), // build root path
+      rootDir: __dirname, // rootDir
+      rootBuildDir: "build", // build root path relative to rootDir
       buildPaths: [
         // first one is relative path to rootDir...
         ["js/index.min.js", "src/index.js"]
@@ -35,7 +38,7 @@ export default rphMultibundles({
       ]
     })
   ]
-}, __dirname);
+});
 ```
 
 > your_server.js
