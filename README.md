@@ -1,7 +1,7 @@
 # rollup-plugin-hotreload
 >Hot Reload plugin for Rollup.js
 
-![](https://travis-ci.org/tingwei628/rollup-plugin-hotreload.svg?branch=master&jobs=485114033)
+[![](https://travis-ci.org/tingwei628/rollup-plugin-hotreload.svg?branch=master)](https://travis-ci.org/tingwei628/rollup-plugin-hotreload/jobs/485114033)
 
 ## Feature
 
