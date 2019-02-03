@@ -37,6 +37,10 @@
     "verbose": true,
     "testMatch": [
       "**/__test__/rollup-plugin-hotreload.test.js"
+    ],
+    "collectCoverageFrom": [
+      "lib/*.js",
+      "!**/__test__/**"
     ]
   }
 }
