@@ -2,7 +2,7 @@
 >Hot Reload plugin for Rollup.js
 
 [![](https://travis-ci.org/tingwei628/rollup-plugin-hotreload.svg?branch=master)](https://travis-ci.org/tingwei628/rollup-plugin-hotreload/jobs/485114033)
-[![Coverage Status](https://coveralls.io/repos/github/tingwei628/rollup-plugin-hotreload/badge.svg)](https://coveralls.io/github/tingwei628/rollup-plugin-hotreload)
+[![Coverage Status](https://coveralls.io/repos/github/tingwei628/rollup-plugin-hotreload/badge.svg?branch=master)](https://coveralls.io/github/tingwei628/rollup-plugin-hotreload?branch=master)
 
 ## Feature
 
