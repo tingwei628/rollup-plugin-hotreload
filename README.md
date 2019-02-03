@@ -73,7 +73,6 @@ $npm install rollup-plugin-hotreload --save-dev
 - CDN
 ```
 <script src="https://unpkg.com/rollup-plugin-hotreload">
-
 ```
 
 ## Test
