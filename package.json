@@ -14,7 +14,9 @@
     "bln": "npm run build && npm pack"
   },
   "dependencies": {
-    "cross-env": "^5.2.1"
+    "braces": "^3.0.2",
+    "cross-env": "^5.2.1",
+    "mem": "^5.1.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
