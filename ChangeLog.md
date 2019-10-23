@@ -1,3 +1,6 @@
+## 2.2.6
+- Fix Vulnerability
+
 ## 2.2.5
 - Enhancement:
   1. Refactoring rollup-plugin-hotreload.js and add helpers
