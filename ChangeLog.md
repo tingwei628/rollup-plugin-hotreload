@@ -1,3 +1,9 @@
+## 2.3.0
+- npm package updates including
+  1.@babel/core@7.11.1
+  2.rollup@2.26.4
+  3.other @rollup/xxx,  @babel/xxx
+
 ## 2.2.6
 - Fix Vulnerability
 
