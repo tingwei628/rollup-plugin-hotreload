@@ -1,10 +1,10 @@
 import babel from '@rollup/plugin-babel';
 import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
-import replace from 'rollup-plugin-replace';
-import { uglify } from 'rollup-plugin-uglify';
-import { join } from "path";
-
+import replace from '@rollup/plugin-replace';
+import { terser } from 'rollup-plugin-terser';
+import { join } from 'path';
+import builtins from 'builtin-modules';
 
 const config = {
   output: {
@@ -12,37 +12,32 @@ const config = {
     name: "rollup-plugin-hotreload",
     format: 'umd',
     sourcemap: true,
-    globals: {
+    globals: {	
       crypto: 'crypto',
       fs: 'fs',
       path: 'path',
       stream: 'stream',
       http: 'http'
-    },
+    }
   },
-  external: [
-    'crypto',
-    'fs',
-    'path',
-    'stream',
-    'http',
-  ],
+  external: builtins,
   plugins: [
     resolve({
       module: true,
       jsnext: true,
       main: true,
-      browser: true
+      browser: true,
     }),
     commonjs(),
     babel({
+	  babelHelpers: 'external',
       exclude: 'node_modules/**'
     }),
     replace({
       exclude: 'node_modules/**',
       ENV: JSON.stringify(process.env.NODE_ENV || "development"),
     }),
-    uglify()
+	terser(),
   ]
 };
 function bundle(config, dirname, outputpath, sourcefilepath) {
