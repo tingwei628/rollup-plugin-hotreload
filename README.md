@@ -1,3 +1,5 @@
+# THIS IS NOT MAINTAINED ANYMORE !
+
 # rollup-plugin-hotreload
 >Hot Reload plugin for Rollup.js
 
