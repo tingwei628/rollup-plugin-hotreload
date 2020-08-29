@@ -1,3 +1,7 @@
+## 2.3.1
+- Fix rollup hook: ongenerate -> onwrite, generateBundle -> writeBundle
+- Fallback to live reload 
+
 ## 2.3.0
 - npm package updates including
   1.@babel/core@7.11.1
